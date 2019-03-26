@@ -1,0 +1,5 @@
+git add . //添加 所有变更的文件
+git status //查看状态
+git commit -m 'fdfd' //提交
+//.gitignore 添加忽略文件，并在文件中写需要忽略的文件及目录
+git branch
