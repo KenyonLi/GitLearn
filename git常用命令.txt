@@ -5,3 +5,17 @@ git commit -m 'fdfd' //提交
 git branch login //创建分支
 
 git checkout login//切换分支
+
+git merge login //先切换为主分支（master）然后再合并
+============================================
+…or create a new repository on the command line
+echo "# GitLearn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/KenyonLi/GitLearn.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/KenyonLi/GitLearn.git
+git push -u origin master
